@@ -41,10 +41,10 @@ export default function Read() {
         <>
             <div className="container mx-auto">
                 <div className="flex items-center justify-center">
-                    <div className="max-w-3xl w-full mt-5">
+                    <div className="max-w-4xl w-full mt-5">
                         <div className="create mb-3">
                             <Link to={'/create'}>
-                                <Button>Create New Data</Button>
+                                <Button variant="create">Create New Data</Button>
                             </Link>
                         </div>
                         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -89,12 +89,14 @@ export default function Read() {
                                                 </td>
                                                 <td className="px-6 py-4">
                                                     <Link to={'/edit'}>
-                                                        <Button 
+                                                        <Button
+                                                            variant="update"
                                                             onClick={() => setLocalStorage(ele.id, ele.name, ele.number, ele.email)}>Update</Button>
                                                     </Link>
                                                 </td>
                                                 <td className="px-6 py-4">
                                                     <Button
+                                                        variant="delete"
                                                         onClick={() => deleteData(ele.id)}>Delete</Button>
                                                 </td>
                                             </tr>
