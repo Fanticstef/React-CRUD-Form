@@ -31,7 +31,7 @@ export default function Create() {
     return (
         <>
             <div className="container mx-auto">
-                <div className="text-center mt-6 font-semibold text-4xl">CRUD <span className='text-orange-500'>App</span> </div>
+                <div className="text-center mt-6 font-semibold text-4xl">CRUD <span className='text-orange-500'>Person Date Page</span> </div>
                 <div className="flex flex-col justify-center items-center">
                     <div className="max-w-md w-full mt-12">
                         <form onSubmit={handleOnSubmit}>
