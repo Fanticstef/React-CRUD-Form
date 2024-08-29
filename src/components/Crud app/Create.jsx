@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function Create() {
-    let url = `https://6687f63c0bc7155dc019eca0.mockapi.io/users`
+    let url = `https://6687f63c0bc7155dc019eca0.mockapi.io/Rupa`
     const [name, setName] = useState('')
     const [number, setNumber] = useState('')
     const [email, setEmail] = useState('')
