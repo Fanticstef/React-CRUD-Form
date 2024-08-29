@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Read() {
-    let url = 'https://6687f63c0bc7155dc019eca0.mockapi.io/users'
+    let url = 'https://6687f63c0bc7155dc019eca0.mockapi.io/Rupa'
     const [apiData, setApiData] = useState([])
 
     const getApiData = () => {
