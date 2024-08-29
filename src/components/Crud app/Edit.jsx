@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function Edit() {
-    let url = 'https://6687f63c0bc7155dc019eca0.mockapi.io/users'
+    let url = 'https://6687f63c0bc7155dc019eca0.mockapi.io/Rupa'
 
     const [id, setId] = useState(0)
     const [name, setName] = useState('')
